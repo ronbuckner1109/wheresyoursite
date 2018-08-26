@@ -21,13 +21,13 @@ body {
 
 /***** HEADER *****/
 
-header {
+#header {
 	height: 1200px;
 	background: url(../img/payphone.jpg);
 	background-size: cover;
 }
 
-header h1 {
+#header h1 {
 	float: left;
 	font-family: 'Noto Serif', serif;
 	font-size: 40px;
@@ -35,7 +35,7 @@ header h1 {
 	padding: 20px 40px 0px 20px;
 }
 
-header h1 span {
+#header h1 span {
 	color: #282828;
 }
 
@@ -52,6 +52,12 @@ nav ul li a {
 	font-size: 25px;
 	color: #000066;
 	padding-left: 80px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	background-image: none;
 }
 
 /***** CREDIT *****/
