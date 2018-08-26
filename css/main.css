@@ -1,0 +1,68 @@
+/***** BASE STYLES *****/
+body {
+	font-family: 'Noto Serif', serif;
+	color: #A9A9A9;	
+}
+
+#credit {
+	height: 75px;
+}
+
+/***** GRID *****/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 1200px;
+	background: url(../img/payphone.jpg);
+	background-size: cover;
+}
+
+header h1 {
+	float: left;
+	font-family: 'Noto Serif', serif;
+	font-size: 40px;
+	color: #000066;
+	padding: 20px 40px 0px 20px;
+}
+
+header h1 span {
+	color: #282828;
+}
+
+nav {
+	float: right;
+	padding: 80px 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	font-size: 25px;
+	color: #000066;
+	padding-left: 80px;
+}
+
+/***** CREDIT *****/
+
+#credit {
+	background-color: #505050;
+	padding-top: 20px;
+
+}
+
+#credit h2 {
+	color: #A8A8A8;
+	font-family: font-family: 'Muli', sans-serif;
+}
