@@ -4,10 +4,6 @@ body {
 	font-family: 'Noto Serif', serif;		
 }
 
-#credit {
-	height: 75px;
-}
-
 /***** GRID *****/
 .full-width {	
 	margin: 0 auto;
@@ -22,17 +18,17 @@ body {
 /***** HEADER *****/
 
 #header {
-	height: 1200px;
-	background: url(../img/payphone.jpg);
+	height: 947px;
+	background: url(../img/blackbanner.png);
 	background-size: cover;
 }
 
 #header h1 {
 	float: left;
 	font-family: 'Noto Serif', serif;
-	font-size: 40px;
-	color: #000066;
-	padding: 20px 40px 0px 20px;
+	font-size: 60px;
+	color: #808080;
+	padding: 80px 40px 0px 20px;
 }
 
 #header h1 span {
@@ -50,14 +46,14 @@ nav ul li {
 
 nav ul li a {
 	font-size: 25px;
-	color: #000066;
+	color: #808080;
 	padding-left: 80px;
 }
 
 /***** ABOUT *****/
 
 #about {	
-	background: url(../img/logo.png);
+	background: url(../img/banner.jpg);
 	background-size: cover;
 	height: 300px;
 }
@@ -66,20 +62,23 @@ nav ul li a {
 	float: left;
 	font-family: 'Noto Serif', serif;
 	font-size: 25px;
-	color: #003300;
-	padding: 20px 40px 0px 20px;
-	text-align:;
+	color: #99d6ff;
+	padding: 40px 0px 0px 10px;
+	text-align: center;
 }
 
-/***** CREDIT *****/
-
-#credit {
-	background-color: #505050;
-	padding-top: 20px;
-
+#about nav {
+	float: right;
+	padding: 40px 20px;
 }
 
-#credit h2 {
-	color: #A8A8A8;
-	font-family: font-family: 'Muli', sans-serif;
+#about nav ul li {
+	display: inline-block;
 }
+
+#about nav ul li a {
+	font-size: 25px;
+	color: #99d6ff;
+	padding-left: 80px;
+}
+
