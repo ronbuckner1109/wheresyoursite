@@ -60,7 +60,7 @@ nav ul li a {
 	font-family: 'Noto Serif', serif;
 	font-size: 25px;
 	color: #808080;
-	padding-left: 80px;
+	padding-left: 65px;
 	text-transform: uppercase;
 }
 
@@ -96,6 +96,8 @@ nav ul li a {
 	padding-left: 65px;
 }
 
+/***** HTML ABOUT *****/
+
 #html {
 	background-color: #001db6;
 	height: 350px;
@@ -123,3 +125,60 @@ nav ul li a {
 	padding-top: 70px;
 }
 
+/***** CSS ABOUT*****/
+
+#css {
+	background-color: #0026e6;
+	height: 350px;
+}
+
+#css h2 {
+	font-family: font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	color: #99d6ff;
+}
+
+#css p {
+	font-family: font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	color: #99d6ff;
+}
+
+
+#css img {
+	padding-top: 100px;
+}
+
+#css .two-third-width {	
+	float: right;
+	padding-top: 70px;
+}
+
+/***** PSD ABOOUT *****/
+
+#psd {
+	background-color: #1a40ff;
+	height: 350px;
+}
+
+#psd h2 {
+	font-family: font-family: 'Muli', sans-serif;
+	font-size: 30px;
+	color: #99d6ff;
+}
+
+#psd p {
+	font-family: font-family: 'Muli', sans-serif;
+	font-size: 20px;
+	color: #99d6ff;
+}
+
+
+#psd img {
+	padding-top: 90px;
+}
+
+#psd .two-third-width {	
+	float: right;
+	padding-top: 70px;
+}
