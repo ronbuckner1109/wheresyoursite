@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 body {
-	font-family: 'Noto Serif', serif;
-	color: #A9A9A9;	
+	color: #A9A9A9;
+	font-family: 'Noto Serif', serif;		
 }
 
 #credit {
@@ -9,9 +9,9 @@ body {
 }
 
 /***** GRID *****/
-.full-width {
-	width: 1200px;
+.full-width {	
 	margin: 0 auto;
+	width: 1200px;
 }
 
 .half-width {
@@ -56,17 +56,19 @@ nav ul li a {
 
 /***** ABOUT *****/
 
-#about {
+#about {	
+	background: url(../img/logo.png);
+	background-size: cover;
 	height: 300px;
-	background-color: #909090;
 }
 
 #about header h1 {
 	float: left;
 	font-family: 'Noto Serif', serif;
-	font-size: 40px;
-	color: #000066;
+	font-size: 25px;
+	color: #003300;
 	padding: 20px 40px 0px 20px;
+	text-align:;
 }
 
 /***** CREDIT *****/
