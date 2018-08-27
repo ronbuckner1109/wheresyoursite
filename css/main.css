@@ -10,10 +10,22 @@ body {
 	width: 1200px;
 }
 
+.two-third-width {
+	width: 800px;
+	float: left;
+}
+
 .half-width {
 	width: 600px;
 	float: left;
 }
+
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
 
 /***** HEADER *****/
 
@@ -82,3 +94,27 @@ nav ul li a {
 	padding-left: 80px;
 }
 
+#html {
+	background-color: #001db6;
+	height: 350px;
+}
+
+#html .full-width {
+	border-top: 2px solid #000000;
+	width: 1200px;
+}
+
+#html img {
+	padding-top: 75px;
+}
+
+#html .two-third-width {	
+	float: right;
+	padding-top: 90px;
+}
+
+#html .third-width {
+	
+	
+
+}
