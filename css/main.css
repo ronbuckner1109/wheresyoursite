@@ -204,7 +204,7 @@ nav ul li a {
 /***** CONTACTLINKS *****/
 
 #contact nav{
-	height: 200px;	
+	height: 100px;	
 }
 
 #contact nav {	
@@ -225,18 +225,19 @@ nav ul li a {
 /***** CONTACT MIDDLE *****/
 
 #contactmid {
-	height: 400px;	
+	height: 300px;	
 }
 
 #contactmid h3{
 	color: #000000;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
-	padding-left: 450px;		
+	padding-left: 450px;
+
 }
 
 #contactinfo {
-	height: 400px;
+	height: 300px;
 }
 
 #contactinfo h3{
@@ -244,8 +245,32 @@ nav ul li a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	padding-left: 450px;
-	padding-top: 250px;	
+	padding-top: 300px;	
 }
+
+/***** FOOTER *****/
+
+#footer {
+	height: 200px;
+}
+
+#footer img {
+	padding-top: 50px;
+	padding-left: 450px;
+}
+#footer h3 {
+	color: #000000;
+	padding-left: 450px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
