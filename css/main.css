@@ -38,13 +38,13 @@ body {
 #header h1 {
 	float: left;
 	font-family: 'Noto Serif', serif;
-	font-size: 60px;
+	font-size: 40px;
 	color: #808080;
 	padding: 80px 40px 0px 20px;
 }
 
 #header h1 span {
-	color: #282828;
+	color: #bfbfbf;
 }
 
 nav {
@@ -59,7 +59,7 @@ nav ul li {
 nav ul li a {
 	font-family: 'Noto Serif', serif;
 	font-size: 25px;
-	color: #808080;
+	color: #bfbfbf;
 	padding-left: 65px;
 	text-transform: uppercase;
 }
