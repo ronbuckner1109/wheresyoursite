@@ -182,3 +182,41 @@ nav ul li a {
 	float: right;
 	padding-top: 70px;
 }
+
+/***** CONTACT *****/
+
+/* font-family: 'Montserrat', sans-serif; */
+
+#contact {
+	background: url(../img/iphone.png);
+	background-color: #bfbfbf;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 1000px;
+	
+}
+
+#contact nav {
+	padding: 175px 440px 0px 0px;
+}
+
+#contact nav ul li {
+	display: inline-block;
+}
+
+#contact nav ul li a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	
+}
+
+#contact h1 {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	padding: 300px 0px 440px 0px;
+	text-align: center;
+
+}
