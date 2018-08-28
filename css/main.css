@@ -183,22 +183,33 @@ nav ul li a {
 	padding-top: 70px;
 }
 
-/***** CONTACT *****/
 
-/* font-family: 'Montserrat', sans-serif; */
+
+
+
+
+/***** CONTACT *****/
 
 #contact {
 	background: url(../img/iphone.png);
-	background-color: #bfbfbf;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
-	height: 1000px;
-	
+	background-color: #bfbfbf;	
+	background-position: center;	
+	background-repeat: no-repeat;	
+	background-size: contain, auto;
+	height: 1000px;	
 }
 
-#contact nav {
-	padding: 175px 440px 0px 0px;
+/* font-family: 'Montserrat', sans-serif; */
+
+/***** CONTACTLINKS *****/
+
+#contact nav{
+	height: 200px;	
+}
+
+#contact nav {	
+	padding-top: 150px;
+	padding-right: 440px;	
 }
 
 #contact nav ul li {
@@ -206,17 +217,43 @@ nav ul li a {
 }
 
 #contact nav ul li a {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	color: #000000;
-	
-}
-
-#contact h1 {
 	color: #000000;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	padding: 300px 0px 440px 0px;
-	text-align: center;
-
+	font-size: 15px;	
 }
+
+/***** CONTACT MIDDLE *****/
+
+#contactmid {
+	height: 400px;	
+}
+
+#contactmid h3{
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	padding-left: 450px;		
+}
+
+#contactinfo {
+	height: 400px;
+}
+
+#contactinfo h3{
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-left: 450px;
+	padding-top: 250px;	
+}
+
+
+
+
+
+
+
+
+
+
+
